@@ -10,29 +10,29 @@ body {
 }
 
 .calculator {
-    width: 100%;
-    max-width: 400px;
+    width: 80%;             
+    max-width: 320px;      
     background-color: #fff;
-    padding: 30px;
+    padding: 20px 25px;     
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 h1, h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;  
 }
 
 label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 8px;   
     font-weight: bold;
 }
 
 input[type="text"], input[type="range"] {
     width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
+    padding: 10px;         
+    margin-bottom: 15px;   
     border: 1px solid #e1e1e1;
     border-radius: 6px;
     box-sizing: border-box;
