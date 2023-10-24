@@ -20,7 +20,7 @@ document.getElementById('tipForm').addEventListener('input', function() {
 
         tipPercentage.value = tip + '%';
         tipAmount.value = tipValue.toFixed(2);
-        totalBill.value = total.toFixed(1);
+        totalBill.value = total.toFixed(2);
     } else {
         alert('Please enter a valid bill total.');
     }
