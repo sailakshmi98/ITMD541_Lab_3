@@ -7,6 +7,12 @@ const totalBill = document.getElementById('totalBill');
 document.getElementById('tipForm').addEventListener('input', function() {
     let bill = parseFloat(billTotal.value);
     let tip = parseFloat(tipSlider.value);
+
+    if (!isNumeric(billTotal.value)) {
+        alert('Please enter a valid numerical value for bill total.');
+        billTotal.value = ""; 
+        return; // Exit the function
+    }
     
     if (!isNaN(bill)) {
         let tipValue = bill * (tip / 100);
@@ -19,3 +25,7 @@ document.getElementById('tipForm').addEventListener('input', function() {
         alert('Please enter a valid bill total.');
     }
 });
+
+function isNumeric(value) {
+    return /^[0-9]*(\.[0-9]+)?$/.test(value);
+}
