@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e6e6ff; /* Light blue */
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,7 +12,7 @@ body {
 .calculator {
     width: 100%;
     max-width: 400px;
-    background-color: #34495e; /* Dark blue-gray */
+    background-color: #669999; /* Teal */
     padding: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -21,34 +21,34 @@ body {
 h1, h2, p {
     text-align: center;
     margin-bottom: 15px;
-    color: #ecf0f1; /* Light gray */
+    color: #ffcc66; /* Gold */
 }
 
 label {
     display: block;
     margin-bottom: 8px;   
     font-weight: bold;
-    color: #bdc3c7; /* Gray */
+    color: #ff9933; /* Orange */
 }
 
 input[type="text"], input[type="range"] {
     width: 100%;
     padding: 10px;         
     margin-bottom: 15px;   
-    border: 1px solid #7f8c8d; /* Gray border */
+    border: 1px solid #ff9933; /* Orange border */
     border-radius: 6px;
     box-sizing: border-box;
-    background-color: #ecf0f1; /* Light gray background */
+    background-color: #ffcc66; /* Gold background */
 }
 
 input[type="text"]:disabled {
-    background-color: #bdc3c7; /* Gray */
-    color: #34495e; /* Dark blue-gray */
+    background-color: #ffcc66; /* Gold */
+    color: #669999; /* Teal */
 }
 
 input[type="range"]::-webkit-slider-thumb {
     border-radius: 50%;
-    background: #7f8c8d; /* Gray */
+    background: #ff9933; /* Orange */
     cursor: pointer;
     height: 20px;
     width: 20px;
@@ -56,7 +56,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"]::-moz-range-thumb {
     border-radius: 50%;
-    background: #7f8c8d; /* Gray */
+    background: #ff9933; /* Orange */
     cursor: pointer;
     height: 20px;
     width: 20px;
