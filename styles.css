@@ -12,43 +12,43 @@ body {
 .calculator {
     width: 100%;
     max-width: 400px;
-    background-color: #056608; /* Changed color for better visibility */
+    background-color: #34495e; /* Dark blue-gray */
     padding: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
-h1, h2, h4, h5 {
+h1, h2, p {
     text-align: center;
     margin-bottom: 15px;
-    color: #fff7f0; /* Additional color */
+    color: #ecf0f1; /* Light gray */
 }
 
 label {
     display: block;
     margin-bottom: 8px;   
     font-weight: bold;
-    color: #d68a1e; /* Additional color */
+    color: #bdc3c7; /* Gray */
 }
 
 input[type="text"], input[type="range"] {
     width: 100%;
     padding: 10px;         
     margin-bottom: 15px;   
-    border: 1px solid #e1e1e1;
+    border: 1px solid #7f8c8d; /* Gray border */
     border-radius: 6px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #ecf0f1; /* Light gray background */
 }
 
 input[type="text"]:disabled {
-    background-color: #f7f7f7;
-    color: #888;
+    background-color: #bdc3c7; /* Gray */
+    color: #34495e; /* Dark blue-gray */
 }
 
 input[type="range"]::-webkit-slider-thumb {
     border-radius: 50%;
-    background: #d68a1e;
+    background: #7f8c8d; /* Gray */
     cursor: pointer;
     height: 20px;
     width: 20px;
@@ -56,7 +56,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 input[type="range"]::-moz-range-thumb {
     border-radius: 50%;
-    background: #d68a1e;
+    background: #7f8c8d; /* Gray */
     cursor: pointer;
     height: 20px;
     width: 20px;
